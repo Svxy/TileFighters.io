@@ -2,6 +2,10 @@
 ### This project built under the <a href="">Apache</a> license.
 <br>
 
+<h2 align="center"><a href="https://tilefighters.herokuapp.com">See live demo</a></h2>
+
+<br>
+
 ## How to install:
 
 ```terminal
