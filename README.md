@@ -1,4 +1,4 @@
-# S&A's .io game concept hosted on <a href="https://heroke.com">Heroku</a>
+# S&A's .io game concept hosted on <a href="https://heroku.com">Heroku</a>
 ### This project built under the <a href="">Apache</a> license.
 <br>
 
