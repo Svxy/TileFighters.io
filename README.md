@@ -1,5 +1,5 @@
 # S&A's .io game concept hosted on <a href="https://heroku.com">Heroku</a>
-### This project built under the <a href="">Apache</a> license.
+### This project built under the <a href="LICENSE">Apache license</a>.
 <br>
 
 <h2 align="center"><a href="https://tilefighters.herokuapp.com">See live demo</a></h2>
