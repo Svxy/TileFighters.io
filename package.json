@@ -1,0 +1,29 @@
+{
+    "name": "tilefighters.io",
+    "version": "1.0.0",
+    "description": "Nodejs and html5 game",
+    "main": "app.js",
+    "scripts": {
+        "test": "node --debug --use_strict app.js",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Svxy/TileFighters.io.git"
+    },
+    "dependencies": {
+        "colors": "1.3.2",
+        "express": "^4.18.2",
+        "package-lock.json": "^1.0.0",
+        "socket.io": "^4.2.0",
+        "socketio-wildcard": "2.0.0",
+        "ws": "^8.2.2"
+    },
+    "keywords": [],
+    "author": "TnyavnTo",
+    "license": "Apache",
+    "bugs": {
+        "url": "https://github.com/Svxy/TileFighters.io/issues"
+    },
+    "homepage": "https://github.com/Svxy/TileFighters.io#readme"
+}

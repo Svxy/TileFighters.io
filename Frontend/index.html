@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9XDGPE3DV7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9XDGPE3DV7');
+    </script>
+    <meta name="description" content="TileFighters.io is an open source score based grid .io concept game. By TnyavnTo @ S&A Organics Co.">
+    <meta name="keywords" content="Tile Fighters, tile fighters, TileFighters, Tilefighters.io, TileFighters.io, tilefighters.io">
+    <meta name="author" content="TnyavnTo">
+    <link rel="icon" href="/Frontend/icon.png">
+    <title>TileFighters.io</title>
+    <link rel="stylesheet" type="text/css" href="/Frontend/style.css">
+</head>
+
+<body onmousemove="mouseMove(event);">
+    <canvas id="ctx" width="1200" height="600"></canvas>
+
+    <div id="overlay"></div>
+
+    <div id="scoreDiv" class="noselect">undefined</div>
+    <div id="death" class="noselect">
+        <div id="dead" class="noselect">
+            Wasted
+        </div>
+        <br>
+        <div id="countdown" class="noselect">0</div>
+    </div>
+    <div id="powerupCountdown" class="noselect">
+        Powerup time left:
+        <div id="powerupCountdownTimer">
+            0
+        </div>
+    </div>
+
+    <div id=menuTextDiv>
+        Menu
+    </div>
+    <div id="uiDiv" class="noselect">
+        <button class="shadow" disabled="true" id="upgradefs">Double fire speed (2000)</button>
+        <button class="shadow" disabled="true" id="upgradedb">Dual bullets (5000)</button>
+        <button class="shadow" disabled="true" id="upgradehp">Upgrade HP (500)</button>
+        <button class="shadow" disabled="true" id="upgradeBulletSize">Upgrade bullet size (5000)</button>
+        <input type="checkbox" id="mlock">Lock menu
+        <br>
+        <input id="nameInput" value="Unnamed" maxlength="16" pattern="[A-Za-z0-9]" required onkeydown="nameInputKeydown(event)">
+        <button class="shadow" id="setName">Set name</button>
+        <a href="https://github.com/svxy/TileFighters.io" target="_blank">Source code</a>
+        <p id="controls">Controls:<br>W - A - S - D<br>Mouse Location</p>
+    </div>
+
+    <script src="/Frontend/jquery-3.3.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/Frontend/cookies.js"></script>
+    <script src="/Frontend/game.js"></script>
+</body>
+
+</html>
